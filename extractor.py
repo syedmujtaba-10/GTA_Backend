@@ -11,7 +11,7 @@ from pypdf import PdfReader
 # ✅ Set OpenAI API Key using an environment variable
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 # ✅ Corrected Windows File Path (Use `r""` for raw string)
-PDF_PATH = r"D:\Backend\data\Government_Policies_With_Form_Links.pdf"
+PDF_PATH = r"D:\ScarletHacks-Backend\data\Government_Policies.pdf"
 
 def extract_text_from_pdf(pdf_path):
     """Extracts text from a PDF file."""
